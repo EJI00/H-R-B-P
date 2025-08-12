@@ -1,0 +1,67 @@
+/* .admin-dashboard {
+    padding: 20px;
+    background-color: #f4f7fc;
+}
+
+h2 {
+    color: #0f0e0e;
+    font-size: 2rem;
+    margin-bottom: 20px;
+
+}
+
+.stats-cards {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.card {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    flex: 1;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.feedback-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-section h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.feedback-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.feedback-section li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .stats-cards {
+        flex-direction: column;
+    }
+} */

@@ -1,0 +1,79 @@
+/* Main container for the Reviews Page */
+.reviews-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+  
+.reviews-heading {
+    text-align: center;
+    font-size: 42px;
+    color: #2c3e50;
+    margin-bottom: 40px;
+}
+
+/* Section Heading Style */
+.section-heading {
+    font-size: 30px;
+    color: #2980b9;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centering the heading */
+}
+
+.section-heading svg {
+    margin-right: 10px;
+    font-size: 1.6rem; /* Adjust icon size */
+}
+
+/* Flex layout for reviews section */
+.reviews-section {
+    display: flex;
+    flex-wrap: wrap; /* Allows reviews to wrap to the next line if needed */
+    justify-content: center; /* Center the reviews in the container */
+    gap: 20px; /* Adds space between each review card */
+}
+
+/* Each review card in the flex layout */
+.review-category {
+    flex: 1 1 30%; /* Flex-grow, flex-shrink, and base size of 30% */
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    min-width: 280px; /* Ensures each review card has a minimum width */
+    max-width: 400px; /* Maximum width for larger screens */
+    text-align: center; /* Center text inside each review */
+}
+
+.review-category h3 {
+    font-size: 24px;
+    color: #2c3e50;
+}
+
+/* Ratings */
+.review-ratings p {
+    font-size: 18px;
+    color: #34495e;
+    line-height: 1.6;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center align the rating text and icons */
+}
+
+/* Star ratings */
+.review-ratings svg {
+    margin-right: 5px;
+    font-size: 1.3rem;
+}
+
+.review-category:last-child {
+    margin-bottom: 40px;
+}

@@ -1,0 +1,412 @@
+/* 
+
+.booking-hd{
+  text-align: center;
+  margin-bottom: 50px;
+  }
+
+  .dark-shade{
+    background-color: rgb(221, 219, 219) !important;
+    border-bottom: 1px solid rgb(177, 176, 176) !important;
+  }
+  
+  .thead-light tr{
+    height: 50px !important;
+
+  }
+
+  .confirm-booking-btn:hover{
+    background-color: #1f5156;
+    color: white;
+    border: #fff;
+  }
+  .confirm-booking-btn:focus{
+    border: none;
+  }
+
+  .confirm-booking-btn{
+    background-color: #fff;
+    color: #1f5156;
+    border: 2px solid #1f5156;
+    font-weight: bold;
+  }
+
+
+ 
+
+  .start-booking-btn{
+    background-color: #1f5156;
+    color: white;
+    border: #1f5156;
+  }
+
+  .start-booking-btn:hover{
+    background-color: #fff;
+    color: #1f5156;
+    border: 2px solid #1f5156;
+  }
+  .start-booking-btn:focus{
+    border: none;
+  }
+
+  .error{
+    width: 100%;
+  } */
+   
+/* 
+.booking-hd{
+  text-align: center;
+  margin-bottom: 50px;
+  }
+
+  .dark-shade{
+    background-color: rgb(221, 219, 219) !important;
+    border-bottom: 1px solid rgb(177, 176, 176) !important;
+  }
+  
+  .thead-light tr{
+    height: 50px !important;
+
+  }
+
+  .confirm-booking-btn:hover{
+    background-color: #1f5156;
+    color: white;
+    border: #fff;
+  }
+  .confirm-booking-btn:focus{
+    border: none;
+  }
+
+  .confirm-booking-btn{
+    background-color: #fff;
+    color: #1f5156;
+    border: 2px solid #1f5156;
+    font-weight: bold;
+  }
+
+
+  .start-booking-btn{
+    background-color: #1f5156;
+    color: white;
+    border: #1f5156;
+  }
+
+  .start-booking-btn:hover{
+    background-color: #fff;
+    color: #1f5156;
+    border: 2px solid #1f5156;
+  }
+  .start-booking-btn:focus{
+    border: none;
+  }
+
+  .error{
+    width: 100%;
+  }
+
+form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  color: #2c3e50;
+  display: block;
+  margin-bottom: 8px;
+}
+
+input.form-control, .form-control {
+  border: 2px solid #3498db;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+input.form-control:focus, .form-control:focus {
+  outline: none;
+  border-color: #27ae60;
+  box-shadow: 0 0 8px rgba(39, 174, 96, 0.4);
+}
+
+h4, h6 {
+  font-family: 'Roboto', sans-serif;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.btn-close {
+  padding: 10px 20px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-close:hover {
+  background-color: #c0392b;
+}
+
+h6.font-weight-bold {
+  color: #2ecc71;
+}
+
+mark {
+  background-color: #f39c12;
+  padding: 5px;
+  border-radius: 4px;
+  color: white;
+}
+
+.react-datepicker-wrapper {
+  display: block;
+}
+
+.react-datepicker__input-container input {
+  border: 2px solid #3498db;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.react-datepicker__input-container input:focus {
+  border-color: #27ae60;
+  box-shadow: 0 0 8px rgba(39, 174, 96, 0.4);
+}
+
+
+.phone-input {
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #3498db;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.phone-input:focus {
+  border-color: #27ae60;
+  box-shadow: 0 0 8px rgba(39, 174, 96, 0.4);
+}
+
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  input.form-control {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .btn-close {
+    width: 100%;
+  }
+} */
+.booking-hd {
+  text-align: center;
+  margin-bottom: 50px;
+  width: 70px;
+}
+
+.dark-shade {
+  background-color: rgb(221, 219, 219) !important;
+  border-bottom: 1px solid rgb(177, 176, 176) !important;
+}
+
+.thead-light tr {
+  height: 50px !important;
+}
+
+.confirm-booking-btn:hover {
+  background-color: #1f5156;
+  color: white;
+  border: #fff;
+}
+
+.confirm-booking-btn:focus {
+  border: none;
+}
+
+.confirm-booking-btn {
+  background-color: #fff;
+  color: #1f5156;
+  border: 2px solid #1f5156;
+  font-weight: bold;
+}
+
+/* MYBOOKINGS */
+.start-booking-btn {
+  background-color: #1f5156;
+  color: white;
+  border: #1f5156;
+}
+
+.start-booking-btn:hover {
+  background-color: #fff;
+  color: #1f5156;
+  border: 2px solid #1f5156;
+}
+
+.start-booking-btn:focus {
+  border: none;
+}
+
+.error {
+  width: 100%;
+}
+
+/* Form Layout */
+form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 60%; /* Set width for form */
+  margin: 0 auto; /* Center form */
+  text-align: left; /* Align text to the left */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  color: #2c3e50;
+  display: block;
+  margin-bottom: 8px;
+}
+
+input.form-control,
+.form-control {
+  border: 2px solid #3498db;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  width: 100%; /* Full width */
+}
+
+input.form-control:focus,
+.form-control:focus {
+  outline: none;
+  border-color: #27ae60;
+  box-shadow: 0 0 8px rgba(39, 174, 96, 0.4);
+}
+
+/* Form Titles */
+h4,
+h6 {
+  font-family: 'Roboto', sans-serif;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+/* Row Styles */
+.row {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-start; /* Align items to the left */
+}
+
+/* Button Styling */
+.btn-close {
+  padding: 10px 20px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-close:hover {
+  background-color: #c0392b;
+}
+
+/* Price and Days Section */
+h6.font-weight-bold {
+  color: #2ecc71;
+}
+
+mark {
+  background-color: #f39c12;
+  padding: 5px;
+  border-radius: 4px;
+  color: white;
+}
+
+/* DatePicker Styling */
+.react-datepicker-wrapper {
+  display: block;
+}
+
+.react-datepicker__input-container input {
+  border: 2px solid #3498db;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.react-datepicker__input-container input:focus {
+  border-color: #27ae60;
+  box-shadow: 0 0 8px rgba(39, 174, 96, 0.4);
+}
+
+/* Phone Input Customization */
+.phone-input {
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #3498db;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.phone-input:focus {
+  border-color: #27ae60;
+  box-shadow: 0 0 8px rgba(39, 174, 96, 0.4);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left on smaller screens */
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  input.form-control {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .btn-close {
+    width: 100%;
+  }
+}

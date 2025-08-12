@@ -1,0 +1,100 @@
+/* Main container for the Special Offer Page */
+.special-offer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading for Special Offers */
+.special-offer-heading {
+    text-align: center;
+    font-size: 42px;
+    color: #2c3e50;
+    margin-bottom: 40px;
+}
+
+/* Grid layout for the offers */
+.offers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+/* Each offer card styling */
+.offer-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.offer-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Offer image styling */
+.offer-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Offer title styling */
+.offer-title {
+    font-size: 24px;
+    color: #2980b9;
+    margin-bottom: 10px;
+}
+
+/* Offer description styling */
+.offer-description {
+    font-size: 16px;
+    color: #34495e;
+    margin-bottom: 20px;
+}
+
+/* Price styling */
+.price-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.offer-price {
+    font-size: 22px;
+    color: #27ae60;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.offer-old-price {
+    font-size: 18px;
+    color: #e74c3c;
+    text-decoration: line-through;
+}
+
+/* Book Now button styling */
+.offer-book-now {
+    background-color: #2980b9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.offer-book-now:hover {
+    background-color: #3498db;
+}

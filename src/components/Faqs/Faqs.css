@@ -1,0 +1,141 @@
+/* General FAQ Page Styling */
+.faqs-page {
+    background-color: #F0F4F8; /* Light grey-blue background for a soft, calming effect */
+    color: #333; /* Darker text color for readability */
+    font-family: 'Poppins', sans-serif;
+    padding: 60px 20px;
+  }
+  
+  .faqs-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #FFFFFF; /* Clean white background for content */
+    border-radius: 20px; /* Softer rounded corners */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1); /* More pronounced shadow for a premium look */
+  }
+  
+  .faqs-heading {
+    text-align: center;
+    color: #1E415A; /* Darker blue for the heading to match navbar */
+    font-size: 3rem; /* Larger font for a premium feel */
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px; /* Extra letter-spacing for a classy feel */
+  }
+  
+  .faq-item {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #EAEAEA; /* Light grey dividers between FAQ items */
+    padding-bottom: 20px;
+  }
+  
+  .faq-question {
+    font-size: 1.8rem;
+    color: #1E415A; /* Rich dark blue for question text */
+    font-weight: 600;
+    padding: 20px;
+    background-color: #F1F9FF; /* Light blue background for questions */
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.4s ease, color 0.4s ease, transform 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  .faq-question:hover {
+    background-color: #19A2B8; /* Vibrant cyan-blue for hover effect */
+    color: #FFFFFF; /* White text on hover */
+    transform: translateY(-3px); /* Slight lift effect on hover */
+  }
+  
+  .faq-answer {
+    font-size: 1.4rem;
+    color: #555; /* Medium grey for answer text */
+    padding: 20px;
+    background-color: #FFFFFF; /* White background for answers */
+    margin-top: 15px;
+    display: none; /* Initially hidden */
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); /* Subtle shadow to lift answers */
+  }
+  
+  .faq-question.active + .faq-answer {
+    display: block; /* Display answer when the question is active */
+    transition: opacity 0.3s ease;
+  }
+  
+  /* Icons for FAQ expand/collapse */
+  .faq-question i {
+    font-size: 1.5rem;
+    color: #19A2B8; /* Matches the vibrant hover color */
+    transition: transform 0.3s ease;
+  }
+  
+  .faq-question.active i {
+    transform: rotate(180deg); /* Rotate the icon when active */
+  }
+  
+  /* Extra FAQ sections like privacy, security */
+  .faq-section {
+    margin-top: 50px;
+  }
+  
+  .faq-section h2 {
+    font-size: 2.5rem;
+    color: #1E415A; /* Consistent deep blue for headings */
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  .faq-section p {
+    font-size: 1.3rem;
+    color: #666; /* Softer grey for section text */
+    line-height: 1.8;
+  }
+  
+  /* Button for extra style */
+  .faq-button {
+    display: inline-block;
+    background-color: #1F5156; /* Dark cyan button for consistency with navbar */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-top: 30px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .faq-button:hover {
+    background-color: #19A2B8; /* Brighter cyan on hover */
+    color: white;
+  }
+  
+  /* Responsive Styling */
+  @media screen and (max-width: 768px) {
+    .faqs-heading {
+      font-size: 2.2rem;
+    }
+  
+    .faq-question {
+      font-size: 1.5rem;
+    }
+  
+    .faq-answer {
+      font-size: 1.2rem;
+    }
+  
+    .faq-button {
+      font-size: 1rem;
+      padding: 8px 15px;
+    }
+  }
+  
